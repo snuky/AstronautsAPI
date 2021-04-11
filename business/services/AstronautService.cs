@@ -34,8 +34,8 @@ namespace business.services
             {
                 return false;
             }
-            var astronaut = new Astronaut { Name = name, Surname = surname, DateOfBirth = dateOfBirth, Superpower = superpower };
 
+            var astronaut = new Astronaut { Name = name, Surname = surname, DateOfBirth = dateOfBirth, Superpower = superpower };
             _context.Astronaut.Add(astronaut);
 
             try
@@ -46,8 +46,8 @@ namespace business.services
             {
                 return false;
             }
-            return true;
 
+            return true;
         }
 
 
@@ -91,6 +91,7 @@ namespace business.services
             {
                 return false;
             }
+
             return true;
         }
     }

@@ -2,7 +2,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-
 namespace DB.Models
 {
     [Table("Astronaut")]
@@ -16,7 +15,6 @@ namespace DB.Models
         public string Surname { get; set; }
         [Required]
         public DateTime DateOfBirth { get; set; }
-
         [Required, MaxLength(100), StringLength(110)]
         public string Superpower { get; set; }
     }

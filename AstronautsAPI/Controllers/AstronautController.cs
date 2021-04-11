@@ -66,7 +66,6 @@ namespace AstronautsAPI.Controllers
             });
 
             return result.ToList();
-
         }
 
         /// <summary>
@@ -106,10 +105,8 @@ namespace AstronautsAPI.Controllers
             {
                 return StatusCode(200);
             }
+
             return StatusCode(422);
-
-
-
         }
 
         /// <summary>
@@ -128,9 +125,8 @@ namespace AstronautsAPI.Controllers
             {
                 return StatusCode(200);
             }
+
             return StatusCode(422);
         }
-
-
     }
 }
